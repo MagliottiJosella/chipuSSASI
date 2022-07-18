@@ -1,9 +1,9 @@
-/* seccion import*/
 * {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box; }
 
+/* seccion import*/
 .container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -206,12 +206,12 @@
 
 .headermayorista {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   background-color: #edeccb;
-  height: 100px;
-  padding-top: 20px; }
+  height: 200px;
+  padding-top: 50px; }
   .headermayorista h1 {
     background-image: url(../img/portada4.png);
     background-size: contain;
@@ -228,7 +228,6 @@
   text-align: center;
   justify-content: center;
   background-color: #edeccb;
-  border: 2px solid #4e0072;
   padding-top: 20px; }
   .Bloquecondiciones h4 {
     text-align: center;
@@ -247,7 +246,7 @@
   font-weight: 900;
   font-size: 20px;
   font-style: oblique;
-  padding: 20px; }
+  padding: 10px; }
 
 .bloqueeleccion {
   display: flex;
@@ -266,17 +265,17 @@
 .bloqueeleccionTituloProductos {
   text-align: center;
   font-size: 18px;
-  margin: 20px; }
+  margin: 10px; }
 
 .bloqueeleccionTituloCantidades {
   text-align: center;
   font-size: 18x;
-  margin: 20px; }
+  margin: 10px; }
 
 .bloqueeleccion_email {
   text-align: center;
   font-size: 13px;
-  margin: 10%; }
+  margin: 10px; }
 
 .headerproductos {
   display: flex;
@@ -741,17 +740,16 @@
     background-color: #edeccb;
     height: 300px;
     border: 2px solid #4e0072; }
-  .Bloquecondiciones_titulo {
-    text-align: center;
-    font-size: 30px;
-    font-style: oblique;
-    padding: 50px;
-    color: #4e0072; }
-  .Bloquecondiciones_descripcion {
-    text-align: center;
-    font-size: 15px;
-    font-style: oblique;
-    padding: 20px; }
+    .Bloquecondiciones h4 {
+      text-align: center;
+      font-size: 25px;
+      font-style: oblique;
+      color: #4e0072; }
+    .Bloquecondiciones h6 {
+      text-align: center;
+      font-size: 10px;
+      font-style: oblique;
+      padding: 20px; }
   .Bloquecondiciones_acepto {
     text-align: center;
     font-weight: 900;
@@ -765,36 +763,34 @@
     justify-content: center;
     background-color: #edeccb;
     height: 400px; }
-  .bloqueeleccionTitulo {
-    text-align: center;
-    font-weight: 900;
-    font-size: 35px;
-    font-style: oblique;
-    padding: 20px;
-    color: #4e0072; }
+    .bloqueeleccion h4 {
+      text-align: center;
+      font-weight: 900;
+      font-size: 20px;
+      font-style: oblique;
+      color: #4e0072; }
   .bloqueeleccionTituloProductos {
     text-align: center;
     font-size: 25px;
-    margin: 20px; }
+    margin: 10px; }
   .bloqueeleccionTituloCantidades {
     text-align: center;
     font-size: 20px;
-    margin: 20px; }
+    margin: 10px; }
   .bloqueeleccion_email {
     text-align: center;
-    font-size: 20px;
-    margin: 20px; }
+    font-size: 10x;
+    margin: 10px; }
   .headermayorista {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #edeccb; }
-  .tituloHeadermayorista {
-    background-image: url(../img/portada4.png);
-    background-size: contain;
-    text-align: center;
-    width: 100%;
-    height: 200px;
-    font-size: 60px;
-    font-style: oblique; } }
+    .headermayorista h1 {
+      background-image: url(../img/portada4.png);
+      background-size: contain;
+      text-align: center;
+      width: 100%;
+      font-size: 60px;
+      font-style: oblique; } }
