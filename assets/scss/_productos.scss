@@ -4,7 +4,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(237, 236, 203);
+    background-color: $colordefondo;
     h1{
         background-image: url(../img/portada4.png);
         background-size:contain;
@@ -26,10 +26,10 @@
 
     text-align:left;
     font-size: 18px;
-    color:rgb(78, 0, 114) ;
+    color:$colordeletra ;
     padding-top: 5%;
     padding-left: 5%;
-    background-color: rgb(237, 236, 203);
+    background-color: $colordefondo;
     height: 100px;
 
 
@@ -39,10 +39,10 @@
 
     text-align:left;
     font-size: 18px;
-    color:rgb(78, 0, 114) ;
+    color:$colordeletra ;
     padding-top: 5%;
     padding-left: 5%;
-    background-color: rgb(237, 236, 203);
+    background-color: $colordefondo;
 
 
 }
@@ -54,7 +54,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(237, 236, 203);
+    background-color:$colordefondo;
 
 }
 
@@ -65,7 +65,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(237, 236, 203);
+    background-color: $colordefondo;
 
 }
 
@@ -81,13 +81,13 @@
     
      h4{    text-align: center;
             font-size: 20px;
-            color:rgb(78, 0, 114) ;
+            color:$colordeletra ;
             padding: 5%;
         }
 
     p {    text-align: center;
         font-size: 15px;
-        color:black;
+        color:$colordeletra;
         padding: 5%;
     } 
 
@@ -109,12 +109,12 @@
 
     h4{    text-align: center;
             font-size: 20px;
-            color:rgb(78, 0, 114) ;
+            color:$colordeletra;
             padding: 5%;}
 
     p {    text-align: center;
         font-size: 15px;
-        color:black;
+        color:$colordeletra;
         padding: 5%;
     } 
 }
@@ -138,7 +138,7 @@
         }
     p {    text-align: center;
         font-size: 15px;
-        color:black;
+        color:$colordeletra;
         padding: 5%;} 
 
 }
@@ -157,13 +157,13 @@
 
     h4{    text-align: center;
         font-size: 20px;
-        color:rgb(78, 0, 114) ;
+        color:$colordeletra;
         padding: 5%;
         }
 
     p{    text-align: center;
         font-size: 15px;
-        color:black;
+        color:$colordeletra;
         padding: 5%;}    
 }
 

@@ -10,7 +10,7 @@
 
 /* seccion import*/
 
-
+@import"_variables";
 @import"_margin";
 @import"_container";
 @import"_navbar";
@@ -44,7 +44,7 @@
     .navbar{
 
         grid-area: navbar;
-        background-color: rgb(237, 236, 203);
+        background-color:$colordefondo;
         z-index: 20;
         display: flex;
         flex-wrap: wrap;
@@ -130,7 +130,7 @@
         flex-direction: row; /*hace que las imagenes esten una al lado de la otra*/
         align-items: center;
         justify-content: center;
-        background-color:rgb(237, 236, 203);
+        background-color:$colordefondo;
         padding-top:30px;
         padding-block-end: 30px;
         .tarjetaNovedad1{
@@ -209,7 +209,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(237, 236, 203);
+    background-color: $colordefondo;
     h1{
         background-image: url(../img/portada4.png);
         background-size:contain;
@@ -228,7 +228,7 @@
 
 
 .mainnosotros{
-    background-color: rgb(237, 236, 203);
+    background-color:$colordefondo;
     background-size:contain;
     width: 100%;
     text-align: center;
@@ -238,7 +238,7 @@
         padding: 80px;
         margin-block-end: 20px;
         text-align: center;
-        background-color: rgb(237, 236, 203) ;
+        background-color:$colordefondo ;
     }
     video{
         width: 100%;
@@ -291,7 +291,7 @@
 .infocontacto{
     display: flex;
     flex-direction:column;
-    background-color: rgb(237, 236, 203) ;
+    background-color:$colordefondo;
     align-items: center;
     justify-content: center;
     padding: 50px;
@@ -338,7 +338,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: rgb(237, 236, 203);
+    background-color:$colordefondo;
     padding: 50px;
 
 }
@@ -350,7 +350,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: rgb(237, 236, 203);
+    background-color:$colordefondo;
     padding: 50px;
 
 
@@ -379,7 +379,7 @@
     p{
         text-align: center;
         font-size: 15px;
-        color:black;
+        color:$colordeletra;
         padding: 5%;
     
     }
@@ -412,7 +412,7 @@
     p{
         text-align: center;
         font-size: 15px;
-        color:black;
+        color:$colordeletra;
         padding: 5%;
     
     }
@@ -440,14 +440,14 @@
     h4{
         text-align: center;
         font-size: 30px;
-        color:rgb(78, 0, 114) ;
+        color:$colordeletra;
         padding: 5%;
         
     }
     p{
     text-align: center;
     font-size: 15px;
-    color:black;
+    color:$colordeletra;
     padding: 5%;
 
     }
@@ -471,7 +471,7 @@
     h4{
         text-align: center;
         font-size: 30px;
-        color:rgb(78, 0, 114) ;
+        color:$colordeletra ;
         padding: 5%;
         
     
@@ -479,7 +479,7 @@
     p{
         text-align: center;
         font-size: 15px;
-        color:black;
+        color:$colordeletra;
         padding: 5%;
     
     }
@@ -496,7 +496,7 @@
     color:rgb(78, 0, 114) ;
     padding-top: 5%;
     padding-left: 5%;
-    background-color: rgb(237, 236, 203);
+    background-color: $colordefondo;
     height: 100px;
 
 
@@ -509,7 +509,7 @@
     color:rgb(78, 0, 114) ;
     padding-top: 5%;
     padding-left: 5%;
-    background-color: rgb(237, 236, 203);
+    background-color:$colordefondo;
 
 
 }
@@ -522,14 +522,14 @@
     flex-direction:column;
     text-align: center;
     justify-content: center;
-    background-color: rgb(237, 236, 203);
+    background-color: $colordefondo;
     height: 300px;
     border: 2px solid rgb(78, 0, 114);
     h4{
             text-align: center;
             font-size: 25px;
             font-style: oblique;
-            color: rgb(78, 0, 114);     
+            color: $colordeletra;     
     }
 
     h6{
@@ -558,7 +558,7 @@
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    background-color: rgb(237, 236, 203);
+    background-color:$colordefondo;
     height: 400px;
 
     h4{
@@ -566,7 +566,7 @@
         font-weight: 900;
         font-size:20px;
         font-style: oblique;
-        color:rgb(78, 0, 114) ;
+        color:$colordeletra;
     
     }
     .bloqueeleccionTituloProductos{
@@ -604,7 +604,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(237, 236, 203);
+    background-color:$colordefondo;
 
     h1{
         background-image: url(../img/portada4.png);

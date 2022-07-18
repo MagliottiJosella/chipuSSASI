@@ -4,7 +4,7 @@
     flex-direction:row;
     align-items: center;
     justify-content: center;
-    background-color: rgb(237, 236, 203);
+    background-color: $colordefondo;
     height: 200px;
     padding-top:50px ;
     
@@ -28,7 +28,7 @@
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    background-color: rgb(237, 236, 203);
+    background-color: $colordefondo;
     padding-top: 20px;
 
     h4{
@@ -36,7 +36,7 @@
         font-size: 25px;
         font-style: oblique;
         padding: 50px;
-        color: rgb(78, 0, 114);
+        color: $colordeletra;
     }
     h6{
         text-align: center;
@@ -64,7 +64,7 @@
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    background-color: rgb(237, 236, 203);
+    background-color: $colordefondo;
 
     h4{
         text-align: center;
@@ -72,7 +72,7 @@
         font-size: 25px;
         font-style: oblique;
         padding: 20px;
-        color:rgb(78, 0, 114) ;
+        color:$colordeletra ;
     
     }
   

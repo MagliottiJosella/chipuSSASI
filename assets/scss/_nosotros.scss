@@ -4,7 +4,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(237, 236, 203);
+    background-color:$colordefondo;
     padding-top: 20%;
     height: 200px;
 
@@ -26,7 +26,7 @@
 
 
 .mainnosotros{
-    background-color: rgb(237, 236, 203);
+    background-color: $colordefondo;
     background-size:contain;
     width: 100%;  
 
@@ -36,7 +36,7 @@
         padding: 100px 80px 80px 80px;
         margin-block-end: 20px;
         text-align: center;
-        background-color: rgb(237, 236, 203) ;
+        background-color:$colordefondo ;
     
     }
     video{

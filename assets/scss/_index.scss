@@ -16,7 +16,7 @@
     text-align: center;
     font-size: 60px;
     font-style: oblique;
-    color:black;
+    color:$colordeletra;
  
 }
        
@@ -33,7 +33,7 @@
     text-align: center;
     color:rgb(78, 0, 114);
     font-style: oblique;
-    background-color:rgb(237, 236, 203);
+    background-color:$colordefondo;
     h2{
   
         font-size: 40px;
@@ -41,7 +41,7 @@
     }
     h3{
   
-        color: black;
+        color:$colordeletra;
     }
 }
 
@@ -54,7 +54,7 @@
     flex-direction: column; /*hace que las imagenes esten una abajo de la otra*/
     align-items: center;
     justify-content: center;
-    background-color:rgb(237, 236, 203);
+    background-color:$colordefondo;
     padding-top:30px;
     padding-block-end: 30px;
     .tarjetaNovedad1{
